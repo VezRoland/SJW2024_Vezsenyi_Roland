@@ -17,6 +17,32 @@ h1 {
   text-shadow: 5px 5px 10px black;
 }
 
+.nav-item:active {
+  color: white;
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.img-thumbnail {
+  box-shadow: 1px 1px 3px black;
+}
+
+.table {
+  width: 80%;
+  box-shadow: 1px 1xp 10px black;
+}
+
+.table > tr:first-child {
+  background-color: #06435f;
+}
+
+.table td {
+  background-color: rgb(18, 131, 185, 0.2);
+}
+
+.table td:hover {
+  background-color: rgb(18, 131, 185, 0.7);
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 1.5rem;
